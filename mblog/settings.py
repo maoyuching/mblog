@@ -16,7 +16,7 @@ import os
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
-# Quick-start development settings - unsuitable for production
+# Quick-start development settings - unsuitable for production 
 # See https://docs.djangoproject.com/en/1.11/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
@@ -25,7 +25,7 @@ SECRET_KEY = '^c_5icaf(^^e^54@8ml*q02*tbej&i-bqai9trhasvxisk&q^+'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = [r'*',u'107.173.35.149',]
+ALLOWED_HOSTS = ['*',u'107.173.35.149',]
 
 
 # Application definition
@@ -119,5 +119,5 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
 STATIC_URL = '/static/'
-STATIC_ROOT='/var/www/staticfiles'
 STATICFILES_DIRS=[os.path.join(BASE_DIR,'static'),]
+STATIC_ROOT='/var/www/staticfiles'
